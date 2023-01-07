@@ -1,0 +1,24 @@
+
+::1 à créer un compte à 05/12/2022 19:22:05
+::1 à créer un compte avec comme pseudo azerty à 05/12/2022 19:26:47
+::1 s'est connecté en tant que thomas.quadro@gmail.com à 05/12/2022 19:30:02
+::1 s'est connecté en tant que thomas.quadro@gmail.com à 06/12/2022 16:08:52
+::1 s'est déconnecté en tant que  à 06/12/2022 16:23:28
+::1 s'est connecté en tant que dz@dz à 06/12/2022 16:23:32
+::1 s'est connecté en tant que thomas.quadro@gmail.com à 06/12/2022 16:23:59
+::1 s'est déconnecté en tant que  à 06/12/2022 16:25:14
+::1 s'est connecté en tant que dz@dz à 06/12/2022 16:25:20
+::1 s'est déconnecté en tant que  à 06/12/2022 16:25:36
+::1 s'est connecté en tant que thomas.quadro@gmail.com à 06/12/2022 16:25:39
+::1 s'est déconnecté en tant que  à 06/12/2022 16:26:17
+::1 n'as pas réussi à se connecté en tant que g@g à 06/12/2022 16:26:24
+::1 s'est connecté en tant que g@g à 06/12/2022 16:26:34
+::1 s'est déconnecté en tant que  à 06/12/2022 16:26:46
+::1 s'est connecté en tant que thomas.quadro@gmail.com à 06/12/2022 16:26:51
+::1 s'est déconnecté en tant que  à 06/12/2022 16:28:44
+::1 s'est connecté en tant que dz@dz à 06/12/2022 16:28:53
+::1 s'est déconnecté en tant que  à 06/12/2022 16:29:11
+::1 s'est connecté en tant que thomas.quadro@gmail.com à 06/12/2022 16:29:15
+::1 s'est connecté en tant que test1@gmail.com à 09/12/2022 17:09:53
+::1 s'est déconnecté en tant que  à 10/12/2022 17:05:02
+::1 s'est connecté en tant que test1@gmail.com à 10/12/2022 17:08:57

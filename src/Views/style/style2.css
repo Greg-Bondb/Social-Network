@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-size: cover;
+}
+
+/* register2.html */
+
+/* Définition du dégradé personnalisé */
+.gradient-custom {
+    width: auto;
+    /* fallback for old browsers */
+    background: #f093fb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+    background-size: cover;
+  }
+
+.bc {
+    height: 100vh;
+}
+  
+  /* Utilisation de la classe "bg-*" de Bootstrap et du dégradé personnalisé */
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    background: #f093fb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card-registration .select-arrow {
+    top: 13px;
+  }
+    /* setting3.css */
+
+    .account-settings .user-profile {
+        margin: 0 0 1rem 0;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .account-settings .user-profile .user-avatar {
+        margin: 0 0 1rem 0;
+    }
+    .account-settings .user-profile .user-avatar img {
+        width: 90px;
+        height: 90px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 90px;
+    }
+    .account-settings .user-profile h5.user-name {
+        margin: 0 0 0.5rem 0;
+    }
+    .account-settings .user-profile h6.user-email {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .account-settings .about {
+        margin: 1rem 0 0 0;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .card {
+        
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 0;
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        border: 1px solid #596280;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        font-size: .825rem;
+        
+        color: black;
+    }
+
+    .p-md-5 {
+        padding: 2rem!important;
+    }
+
+    .mt-xxl-5 {
+        margin-bottom: 3rem!important;
+    }
+
+    .form-group label {
+        color: rgb(235, 129, 29);
+    }
+
+    .nav-item {
+        font-size: 18px;
+    }
+
+    .nav-item:hover {
+        text-decoration: underline;
+    }
+
+    @media (min-width: 1200px) {
+        ul.nav {
+            width: 40%!important;
+            display: flex!important;
+            justify-content: space-between!important;
+            align-items: center!important;
+        }
+    }
+
+    .img-bar {
+        width: 50px;
+        height: 50px;
+        border-radius: 90px;
+        margin-right: 1rem;
+    }
+
+    .text-end {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .text-end p {
+        margin: 0;
+    }
+
+
+
+    
+    /* friends */
+    #barsearch {
+        margin-top: 1rem;
+        width: 30%!important;
+        margin-bottom: 1rem;
+    }
+
+    .form-control-lg {
+        font-size: 0.8rem!important;
+    }
+
+    .searchform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sup {
+        width: 50%;
+    }
+
+    .create-feed {
+        margin-bottom: 5rem;
+    }
+
+    .abso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        display: inline-block;
+        border: none;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border-radius: 5px;
+    }
+    
+    .button-red {
+        background-color: #f44336;
+    }
+
+    .img-bar2 {
+        width: 80px;
+        height: 80px;
+        border-radius: 90px;
+    }
+
+    .friend-column {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-friends {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .extend {
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mid {
+        min-height: 420px;
+    }
+
+    .friend-case {
+        width: 100%;
+    }
+
+
+
+
+    .block-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .page {
+        width: 50%;
+    }
+
+    .red {
+        width: 60%!important;
+        margin-bottom: 1rem;
+        min-height: 100px!important;
+        max-height: 200px!important;
+    }
+
+    .redef {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .redef strong {
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+
+    .c2 {
+        width: 60%!important;
+    }
+
+    .form-sub {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+        /* setting.css */
+        .col-md-6-modif {
+            width: 80%;
+        }
+    
+        .form-group-under {
+            margin-top: 2rem;
+        }
+    
+        #file2{
+            width: 50%;
+            margin-bottom: 1rem;
+        }
+    
+        .img-profil {
+            margin-bottom: 1rem;
+        }
+    
+        .button-delete {
+            margin-bottom: 1rem;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container-all{
+            display: contents;
+        }
+
+.add{
+    font-size: 40px;
+    color: black;
+    border: black solid 1px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+a p{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,296 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /*HTML CSS login.html*/
+
+  /* .container-form{
+    width: 20%;
+  } */
+
+  .container-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*HTML CSS register.html*/
+
+   /*HTML CSS setting.html*/
+
+   .gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+    }
+
+/* HTML CSS setting1.html*/
+
+body{margin-top:20px;
+  color: #bcd0f7;
+      background: #1A233A;
+  }
+  .account-settings .user-profile {
+      margin: 0 0 1rem 0;
+      padding-bottom: 1rem;
+      text-align: center;
+  }
+  .account-settings .user-profile .user-avatar {
+      margin: 0 0 1rem 0;
+  }
+  .account-settings .user-profile .user-avatar img {
+      width: 90px;
+      height: 90px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+  }
+  .account-settings .user-profile h5.user-name {
+      margin: 0 0 0.5rem 0;
+  }
+  .account-settings .user-profile h6.user-email {
+      margin: 0;
+      font-size: 0.8rem;
+      font-weight: 400;
+  }
+  .account-settings .about {
+      margin: 1rem 0 0 0;
+      font-size: 0.8rem;
+      text-align: center;
+  }
+  .card {
+      background: #272E48;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border: 0;
+      margin-bottom: 1rem;
+  }
+  .form-control {
+      border: 1px solid #596280;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      font-size: .825rem;
+      background: #1A233A;
+      color: #bcd0f7;
+  }
+
+  /* friendlist.html */
+
+body{
+    margin-top:20px;
+    background:#FAFAFA
+}
+img.profile-photo-md {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/*==================================================
+  Create Post Box CSS
+  ==================================================*/
+
+.create-post{
+  width: 100%;
+  min-height: 90px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f2f2;
+}
+
+.create-post .form-group{
+  margin-bottom: 0;
+  display: inline-flex;
+}
+
+.create-post .form-group .form-control{
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.create-post .form-group img.profile-photo-md{
+  margin-right: 10px;
+}
+
+.create-post .tools{
+  padding: 8px 0 10px;
+}
+
+.create-post .tools ul.publishing-tools{
+  display: inline-block;
+  text-align:left;
+  margin: 0;
+  padding:5px 0;
+}
+
+.create-post .tools ul.publishing-tools li a{
+  color: #6d6e71;
+  font-size: 18px;
+}
+
+.create-post .tools ul.publishing-tools li a:hover{
+  color: #27aae1;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+/*==================================================
+  Friend List CSS = Newsfeed and Timeline
+  ==================================================*/
+
+.friend-list .friend-card{
+  border-radius: 4px;
+  border-bottom: 1px solid #f1f2f2;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.friend-list .friend-card .card-info{
+  padding: 0 20px 10px;
+}
+
+.friend-list .friend-card .card-info img.profile-photo-lg{
+  margin-top: -60px;
+  border: 7px solid #fff;
+}
+
+img.profile-photo-lg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.text-green {
+    color: #8dc63f;
+}
+
+
+
+  /* register2.html */
+
+.gradient-custom {
+  height: 100vh;
+  /* fallback for old browsers */
+  background: #f093fb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+
+  body{
+    margin-top:20px;
+    background:#FAFAFA;    
+}
+/*==================================================
+  Nearby People CSS
+  ==================================================*/
+
+.people-nearby .google-maps{
+  background: #f8f8f8;
+  border-radius: 4px;
+  border: 1px solid #f1f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.people-nearby .google-maps .map{
+  height: 300px;
+  width: 100%;
+  border: none;
+}
+
+.people-nearby .nearby-user{
+  padding: 20px 0;
+  border-top: 1px solid #f1f2f2;
+  border-bottom: 1px solid #f1f2f2;
+  margin-bottom: 20px;
+}
+
+img.profile-photo-lg{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* newfeed.php */
+
+.friendlist{
+  width: 62%;
+}
+
+.all-newfeed {
+  display: flex;
+  justify-content: space-between;
+}
